@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Контакты</title>
-
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="catalog.html">Каталог</a></li>
-        <li><a href="#">Контакты</a></li>
+    <ul class="menu">
+        <li><a class="a1" href="index.html">Главная</a></li>
+        <li><a class="a1" href="catalog.html">Каталог</a></li>
+        <li><a class="a1" href="#">Контакты</a></li>
     </ul>
     <hr>
     <h1>Напишите нам</h1>
     <form action="form1">
 
-        Ваше имя <input type="text" placeholder="Ваше имя"><br><br>
-        Ваш e-mail <input type="email" placeholder="mail@mail.ru"><br><br>
+        Ваше имя <input type="text" placeholder="Ваше имя" ><br>
+        Ваш e-mail <input type="email" placeholder="mail@mail.ru"><br>
 
         Тема <select name="select" id="1">
             <option value="s1">Уточнить детали заказа</option>
@@ -27,12 +27,12 @@
             <option value="s4">Сообщить об&nbsp;ошибке</option>
             <option value="s5">Другое</option>
         </select> <br><br>
-        <textarea name="text" id="1" cols="60" rows="10" placeholder="Ваше сообщение"></textarea> <br> <br>
+        <textarea name="text" id="1" cols="60" rows="10" placeholder="Ваше сообщение"></textarea> <br>
         Оцените качество сервиса: <br>
         Отлично <input type="radio" name="quality" value="1"> <br>
         Хорошо <input type="radio" name="quality" value="2"><br>
         Удовлетворительно <input type="radio" name="quality" value="3"><br>
-        Плохо <input type="radio" name="quality" value="4"><br><br>
+        Плохо <input type="radio" name="quality" value="4"><br>
 
         <input type="submit" value="Отправить сообщение">
         <input type="reset" value="Сбросить значения">
@@ -49,7 +49,7 @@
 
 
     <hr>
-    &copy;&nbsp;Все права защищены
+    <p class ="footer">&copy;&nbsp;Все права защищены</p>
 
 
 </body></html>
