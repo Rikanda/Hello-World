@@ -17,22 +17,24 @@
     <h1>Напишите нам</h1>
     <form action="form1">
 
-        Ваше имя <input type="text" placeholder="Ваше имя" ><br>
-        Ваш e-mail <input type="email" placeholder="mail@mail.ru"><br>
-
-        Тема <select name="select" id="1">
+       
+Выберите желаемое действие: <br>
+      <select class="box" name="select" id="1">
             <option value="s1">Уточнить детали заказа</option>
             <option value="s2">Зарезервировать модель</option>
             <option value="s3">Аннулировать заказ</option>
             <option value="s4">Сообщить об&nbsp;ошибке</option>
             <option value="s5">Другое</option>
-        </select> <br><br>
+        </select> <br>
+         <input class="box" type="text" placeholder="Ваше имя" ><br>
+        <input class="box" type="email" placeholder="Ваш e-mail"><br>
         <textarea name="text" id="1" cols="60" rows="10" placeholder="Ваше сообщение"></textarea> <br>
         Оцените качество сервиса: <br>
-        Отлично <input type="radio" name="quality" value="1"> <br>
-        Хорошо <input type="radio" name="quality" value="2"><br>
-        Удовлетворительно <input type="radio" name="quality" value="3"><br>
-        Плохо <input type="radio" name="quality" value="4"><br>
+        5 <input type="radio" name="quality" value="5"> <br>
+        4 <input type="radio" name="quality" value="4"><br>
+        3 <input type="radio" name="quality" value="3"><br>
+        2 <input type="radio" name="quality" value="2"><br>
+         1 <input type="radio" name="quality" value="1"><br>
 
         <input type="submit" value="Отправить сообщение">
         <input type="reset" value="Сбросить значения">
