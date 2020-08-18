@@ -17,41 +17,45 @@
     <h1>Напишите нам</h1>
     <form action="form1">
 
-       
-Выберите желаемое действие: <br>
-      <select class="box" name="select" id="1">
+
+        Выберите желаемое действие: <br>
+        <select class="listbox" name="select" id="1">
             <option value="s1">Уточнить детали заказа</option>
             <option value="s2">Зарезервировать модель</option>
             <option value="s3">Аннулировать заказ</option>
             <option value="s4">Сообщить об&nbsp;ошибке</option>
             <option value="s5">Другое</option>
         </select> <br>
-         <input class="box" type="text" placeholder="Ваше имя" ><br>
+        <input class="box" type="text" placeholder="Ваше имя"><br>
         <input class="box" type="email" placeholder="Ваш e-mail"><br>
         <textarea name="text" id="1" cols="60" rows="10" placeholder="Ваше сообщение"></textarea> <br>
-        Оцените качество сервиса: <br>
-        5 <input type="radio" name="quality" value="5"> <br>
-        4 <input type="radio" name="quality" value="4"><br>
-        3 <input type="radio" name="quality" value="3"><br>
-        2 <input type="radio" name="quality" value="2"><br>
-         1 <input type="radio" name="quality" value="1"><br>
+        Оцените качество сервиса:
+        <ul class="quality">
 
-        <input type="submit" value="Отправить сообщение">
-        <input type="reset" value="Сбросить значения">
+            <li><input type="radio" name="quality" value="1"></li>
+            <li><input type="radio" name="quality" value="2"></li>
+            <li><input type="radio" name="quality" value="3"></li>
+            <li><input type="radio" name="quality" value="4"></li>
+            <li><input type="radio" name="quality" value="5"></li>
+        </ul>
+
+        <input class="box" type="submit" value="Отправить сообщение">
+        <input class="box" type="reset" value="Сбросить значения">
     </form>
 
-    <h2>Наш адрес</h2>
-    Контактный телефон: +7(800)777-77-77 <br><br>
-    e-mail: <a href="mailto:notebooks@belnotebooks.ru">notebooks@belnotebooks.ru</a> <br><br>
-    Адрес: г.Белгород, Каспийская ул. 2/5 <br><br>
-    Мы&nbsp;на&nbsp;карте:
+    <h1>Наш адрес</h1>
+    <form action="form2">
+        Контактный телефон: +7(800)777-77-77 <br><br>
+        e-mail: <a href="mailto:notebooks@belnotebooks.ru">notebooks@belnotebooks.ru</a> <br><br>
+        Адрес: г.Белгород, Каспийская ул. 2/5 <br><br>
+        Мы&nbsp;на&nbsp;карте:
 
-    <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/239/sochi/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Сочи</a><a href="https://yandex.ru/maps/239/sochi/?ll=39.935300%2C43.423500&utm_medium=mapframe&utm_source=maps&z=18.45" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCQtUMAzGA" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+        <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/239/sochi/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Сочи</a><a href="https://yandex.ru/maps/239/sochi/?ll=39.935300%2C43.423500&utm_medium=mapframe&utm_source=maps&z=18.45" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCQtUMAzGA" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
 
-
+    </form>
 
     <hr>
-    <p class ="footer">&copy;&nbsp;Все права защищены</p>
+    <p class="footer">&copy;&nbsp;Все права защищены</p>
 
 
 </body></html>

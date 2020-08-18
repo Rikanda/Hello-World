@@ -1,72 +1,103 @@
-body{
+body {
     background-color: #f8f8f8;
     line-height: 1.5;
     color: darkslategray;
-    
+
 }
+
 .menu {
-    list-style-type: none;  
+    list-style-type: none;
 }
-.a1{
+
+.a1 {
     color: darkslategray;
     font-size: 1.4em;
     font-family: monospace;
     text-decoration: none;
 }
-h1{
+
+h1 {
     color: darkcyan;
     text-align: center;
-     font-family: monospace;
-    
-}
-h3{
-    font-weight:400;
-    color:black;
-    font-size:18px;
-    background-color: #eaeaea;
-    
+    font-family: monospace;
+
 }
 
-.short_description{
+h3 {
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    background-color: #eaeaea;
+
+}
+
+.short_description {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
 }
 
-.long_description{
+.long_description {
     color: #484343;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
 }
+
 .character {
     list-style-image: url(img/listmark.jpg);
-    color:darkcyan;
-    font-family:monospace;
+    color: darkcyan;
+    font-family: monospace;
     font-size: 1.3em;
     vertical-align: top;
-    line-height: 56px;   
+    line-height: 56px;
 }
 
- .box{
-   width: 200px;
-   margin-bottom:10px;
-   
-   padding:5px 9px;
-   
-   line-height:1.2em;
-}
-
-#hello{
+form {
     text-align: center;
-    font-size: 1.2em;   
 }
-.textbody{
+
+.box {
+
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    color: darkcyan;
+    font-family: monospace;
+}
+
+.listbox {
+
+    width: 210px;
+    margin-bottom: 20px;
+    padding: 5px 5px;
+    line-height: 1.2em;
+    color: darkcyan;
+    font-family: monospace;
+}
+
+.quality {
+    line-height: 26px;
+    list-style-position: inside;
+    list-style-type: decimal;
+    margin-bottom: 20px;
+
+}
+
+
+#hello {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.textbody {
     text-align: justify;
 }
-.footer{
+
+.footer {
     text-align: center;
     font-family: monospace;
     color: darkcyan;
