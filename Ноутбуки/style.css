@@ -7,6 +7,30 @@ body {
 
 .menu {
     list-style-type: none;
+    padding: 100 50;
+
+
+}
+
+img.logo {
+    width: 100px;
+    border: none;
+    float: right;
+
+
+}
+
+.imgnote {
+    outline: 3px solid darkcyan;
+}
+
+.imgnote:hover {
+    outline: inherit;
+}
+
+
+.menu li a:hover {
+    color: red;
 }
 
 .a1 {
@@ -55,6 +79,12 @@ h3 {
     line-height: 56px;
 }
 
+.description p::first-letter {
+    color: darkcyan;
+    font-size: 1.5em;
+    font-family: fantasy;
+}
+
 form {
     text-align: center;
 }
@@ -67,6 +97,43 @@ form {
     line-height: 1.2em;
     color: darkcyan;
     font-family: monospace;
+    text-transform: capitalize;
+}
+
+
+.boxemail {
+
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    font-family: monospace;
+    text-transform: capitalize;
+}
+
+
+input.boxemail:focus {
+    background-color: black;
+    color: white;
+    font-size: 1.4em;
+    font-style: normal;
+
+}
+
+.boxemail:focus::placeholder {
+    color: aquamarine;
+
+}
+
+textarea {
+    text-transform: capitalize;
+}
+
+input,
+select,
+textarea {
+    font-style: italic;
+
 }
 
 .listbox {
@@ -101,4 +168,42 @@ form {
     text-align: center;
     font-family: monospace;
     color: darkcyan;
+}
+
+.param {
+    border: 3px solid darkcyan;
+    border-collapse: collapse;
+
+
+}
+
+td {
+    border: 1px solid darkcyan;
+    width: 150px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.firstrow {
+    height: 100px;
+    background-color: darkcyan;
+    color: beige;
+    text-align: center;
+    font-size: 1.5em;
+    vertical-align: top;
+
+}
+
+.secondrow {
+    text-align: center;
+    color: darkcyan;
+    font-family: fantasy;
+}
+
+.firstst {
+    width: 15px;
 }

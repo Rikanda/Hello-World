@@ -8,12 +8,16 @@
 </head>
 
 <body>
-    <ul class="menu">
-        <li><a class="a1" href="index.html">Главная</a></li>
-        <li><a class="a1" href="catalog.html">Каталог</a></li>
-        <li><a class="a1" href="#">Контакты</a></li>
-    </ul>
-    <hr>
+    <div class="header">
+        <img class="logo" src="img/logo.jpg" alt="logo">
+        <ul class="menu">
+            <li><a class="a1" href="index.html">Главная</a></li>
+            <li><a class="a1" href="catalog.html">Каталог</a></li>
+            <li><a class="a1" href="#">Контакты</a></li>
+        </ul>
+        <hr>
+    </div>
+
     <h1>Напишите нам</h1>
     <form action="form1">
 
@@ -26,10 +30,14 @@
             <option value="s4">Сообщить об&nbsp;ошибке</option>
             <option value="s5">Другое</option>
         </select> <br>
+
         <input class="box" type="text" placeholder="Ваше имя"><br>
-        <input class="box" type="email" placeholder="Ваш e-mail"><br>
+
+        <input class="boxemail" type="email" placeholder="Ваш e-mail"><br>
+
         <textarea name="text" id="1" cols="60" rows="10" placeholder="Ваше сообщение"></textarea> <br>
-        Оцените качество сервиса:
+
+        Оцените качество сервиса по пятибалльной шкале:
         <ul class="quality">
 
             <li><input type="radio" name="quality" value="1"></li>
@@ -54,8 +62,11 @@
 
     </form>
 
-    <hr>
-    <p class="footer">&copy;&nbsp;Все права защищены</p>
+
+    <div class="footer">
+        <hr>
+        <p class="footer">&copy;&nbsp;Все права защищены</p>
+    </div>
 
 
 </body></html>
