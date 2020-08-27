@@ -5,19 +5,100 @@ body {
 
 }
 
+.container{
+    width: 1000px;
+    margin: 0 auto;
+   
+}
+
+.header {
+     height: 110px;
+       background-image: repeating-radial-gradient(circle closest-side at 30px 50px, beige, darkcyan 150%, lightskyblue 200%, beige 320%);
+  
+    
+}
+
+
+
 .menu {
     list-style-type: none;
-    padding: 100 50;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    float: right;
+    font-size: 1.2em;
+    margin-right: 10px;
+    
+}
 
-
+.menu li {
+    display: inline;
+     
 }
 
 img.logo {
-    width: 100px;
+    width: 105px;
     border: none;
+    padding-top: 10px;
+    padding-left: 10px;
+   
+}
+
+.footer {
+    height: 100px;
+    background-color: lightskyblue;  
+}
+
+.footer p {
     float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.top {
+    height: 250px;
+}
 
+.top h3{
+display: flex;
+padding-left: 50px;
+}
 
+.top p {
+display: flex;
+padding-left: 50px;
+}
+.top img {
+    float: left;
+}
+
+.top button {
+    margin-left: 50px;
+    width: 150px;
+    height: 50px;
+    font-family: monospace;
+    font-size: 1.8em;
+    border-radius: 55px;
+    border: 1.4px solid darkcyan;
+    color: darkcyan;
+    background-image: repeating-radial-gradient(circle closest-side at 100px 300px, beige,  lightskyblue 200%, beige 320%);
+  
+box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+     outline: none;
+
+}
+
+.top button:hover {
+    background-image: repeating-radial-gradient(circle closest-side at 100px 300px, lightskyblue,  darkcyan 200%, lightskyblue 320%);
+    color: beige;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.7);
+}
+.top button:active {
+    background-image: repeating-radial-gradient(circle closest-side at 100px 300px, darkcyan,  lightskyblue 200%, darkcyan 320%);
+    color: cornsilk;
+   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 3px;
+   
 }
 
 .imgnote {
@@ -206,4 +287,41 @@ td {
 
 .firstst {
     width: 15px;
+}
+
+ #notebooks {
+    width: auto;
+     height: auto;
+    background-color:beige;
+     display: flex;
+     justify-content: space-around;
+}
+
+#notebooks img{
+    width: 150px;
+    height: 100px;
+}
+
+.notebook {
+    width: 150px;
+    height: 200px;
+    
+}
+
+.notebook h3 {
+    font-size: 0.7em;   
+    
+}
+
+.notebook img {
+ margin-top: 20px
+}
+
+@media (max-width: 620px){
+    .top {
+        height: 500px;
+    }
+    .top img{
+        float: none;
+    }
 }
