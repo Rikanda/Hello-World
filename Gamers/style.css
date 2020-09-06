@@ -255,6 +255,14 @@
 
 }
 
+
+.line2 {
+    display: block;
+    margin: auto;
+    padding-right: 470px;
+
+}
+
 .slider-Morbi {
     font-size: 60px;
     line-height: 48px;
@@ -538,6 +546,10 @@
 
 }
 
+.toy .buy:hover {
+    outline: 1px solid black;
+}
+
 .testimonial {
     background-image: url(img/3.png);
     width: 1923px;
@@ -702,6 +714,7 @@
     font-size: 14px;
 }
 
+
 .contactus {
     text-align: center;
     margin-top: 97px;
@@ -816,11 +829,14 @@
     color: #ffffff;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 
 }
 
 .footer p {
-    padding-top: 29px;
+    padding-top: 19px;
 }
 
 .show {
@@ -845,3 +861,107 @@ line-height: 22.36px;
 .show img {
     padding-top: 12px;
 }
+
+.discounts {
+    display: flex;
+    justify-content: flex-start;
+    width: 1920px;
+    height: 562px;
+}
+
+.discount1 {
+    width: 960px;
+    height: 562px;
+    background-image: url(img/532219.png);
+    
+}
+.discount2 {
+    width: 960px;
+    height: 562px;
+    background-image: url(img/cda8d63e371e3da4b332164c3da4ada5.png);
+    
+}
+
+.dis_text1 {
+    width: 380px;
+    height: 257px;
+    padding-top: 152px;
+    padding-left: 113px;
+}
+
+.dis_text2 {
+    width: 380px;
+    height: 222px;
+       padding-top: 188px;
+    padding-left: 115px;
+}
+
+.discounts p {
+    
+ font-family: 'Poppins', sans-serif;
+
+line-height: 48px;
+    color: #000000;
+font-size: 62px;
+    padding-top: 29px;
+}
+
+.discounts span1 {
+     color: #8c8c8c;
+ font-family: 'Poppins', sans-serif;
+font-size: 36px;
+line-height: 48px;
+    
+}
+.discounts span2 {
+     color: #8c8c8c;
+ font-family: 'Poppins', sans-serif;
+font-size: 36px;
+line-height: 48px;
+    text-decoration: line-through;
+}
+
+.discounts h2 {
+    color: #010101;
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 36px;
+}
+
+.discounts h1 {
+   
+font-family: 'Poppins', sans-serif;
+color: #f44336;
+font-size: 36px;
+font-weight: 500;
+line-height: 36px;
+    
+}
+
+.discounts .buy {
+    
+   width: 265px;
+height: 62px;
+    background-color: #f44336;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+   
+    margin-top: 19px;
+
+font-size: 30px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.3px;
+
+
+}
+
+.discounts .buy:hover{
+    outline: 1px solid black;
+}
+
+
+
