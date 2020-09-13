@@ -262,6 +262,12 @@
     padding-right: 470px;
 
 }
+.line3 {
+    display: block;
+    margin: auto;
+    padding-left: 430px;
+
+}
 
 .slider-Morbi {
     font-size: 60px;
@@ -503,6 +509,65 @@
     font-weight: 500;
     line-height: 48px;
 }
+
+.gallery_similar {
+    width: 1920px;
+    height: 684px;
+    margin: 0 auto;
+       text-align: center;
+    color: #f44336;
+    font-family: 'Poppins', sans-serif;
+   font-size: 36px;
+font-weight: 500;
+line-height: 36px;
+    background-color: #e3e3e3;
+    margin-top: 178px;
+
+}
+
+.gallery_similar p {
+    padding-top: 49px;
+}
+
+.gallery_similar .toys {
+    padding-top: 80px;
+    width: 1171px;
+    height: 482px;
+    margin: 0 auto;
+}
+
+.gallery_similar .toy {
+    width: 271px;
+    background-color: #e3e3e3;
+}
+
+.gallery_similar .toy .buy {
+    width: 130px;
+    height: 30px;
+    background-color: #f44336;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+    margin-left: 0px;
+
+}
+
+.contact {
+    background-color: #e8e8e8;
+height: 663px;
+    margin-top: -99px;
+}
+
+.contact h1 {
+  padding-top: 78px;
+}
+
+
 
 .toys {
     width: 1171px;
@@ -963,5 +1028,111 @@ letter-spacing: 0.3px;
     outline: 1px solid black;
 }
 
+.product {
+    width: 970px;
+    height: 414 px;
+    margin: 0 auto;
+    padding-top: 174px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgprod {
+    height: 385px;
+    width: 470px;
+    margin-right: 15px;
+    
+}
+
+.imgp1, .imgp2, .imgp3, .imgp4 {
+    padding-left: 15px;
+    padding-right: 5px;
+    float: left;
+    
+}
+
+.imgp1 {
+    padding-top: 41px;
+
+}
+
+.imgp1 img {
+    outline: 1px solid white;
+    box-shadow:  0.7em 0.7em 5px rgba(122,122,122,0.5);
+}
+
+.imgp2, .imgp3, .imgp4 {
+      padding-top: 62px; 
+}
+
+.textprod {
+
+    width: 470px;
+    height: 414px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.prod1 {
+   
+color: #000000;
+font-family: 'Poppins', sans-serif;
+font-size: 36px;
+font-weight: 500;
+line-height: 36px;
 
 
+}
+
+.prod2 {
+
+font-family: 'Poppins', sans-serif;
+font-size: 36px;
+font-weight: 500;
+line-height: 36px;
+
+color: #f44336;  
+}
+
+.prod3 {
+    padding-top: 21px;
+    
+color: #000000;
+font-family: 'Poppins', sans-serif;
+font-size: 62px;
+font-weight: 300;
+line-height: 48.02px;
+}
+
+.textprod .buy {
+    margin-top: 15px;
+   width: 470px;
+height: 62px;
+background-color: #f44336;
+    
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+font-weight: 500;
+line-height: 24px;
+    
+}
+
+.prod4 {
+    width: 463px;
+height: 153px;
+color: #999999;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 12px;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0.12px;
+    margin-top: 32px;
+}
+
+.contact p {
+    color: #000000;
+    
+}
